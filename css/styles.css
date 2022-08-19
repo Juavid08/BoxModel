@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 104, 62);
+
+}
+.centrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: center;
+}
+.Darwin {
+    height: 800px;
+    background-color: orange;
+    background-image: url(../imagenes/Darwin.png);
+    background-size: 300px;
+    background-repeat:no-repeat ;
+    background-position:500px ;
+    padding: 50px;
+
+}
+.Gumball{
+    height: 800px;
+    background-color: rgb(44, 112, 200);
+    background-image: url(../imagenes/Gumball.png);
+    background-size: 300px;
+    background-repeat:no-repeat ;
+    background-position: 500px;
+    padding: 50px;
+}
+h1{
+    font-family: 'Silkscreen', cursive;
+    font-size: 50px;
+}
